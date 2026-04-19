@@ -1,0 +1,33 @@
+nav{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #edd573;
+    background:linear-gradient(to right, black, #9a8f4c,black) ;
+    padding:1%;
+    border-radius: 30px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #1E1E1E;
+    border:#C8A951 solid 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+nav a:hover {
+    background-color: #C8A951;
+    color: #0D0D0D;
+    transition: 0.3s;
+
+}
+nav a:active {
+    transform: scale(0.95);
+}
+
+a:focus,
+a:focus-visible {
+  outline: none;
+  box-shadow: none;
+}

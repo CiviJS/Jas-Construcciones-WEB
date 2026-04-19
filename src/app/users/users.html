@@ -1,0 +1,14 @@
+//aca fue una prueba de consumo de api creada por mi 
+
+@if(error){
+  <div>{{error}}</div>
+}
+<h2>Lista de usuarios</h2>
+
+@for (user of users; track user.id) {
+  <div>
+    <strong>{{ user.Nombre }}</strong> - {{ user.correo }}
+  </div>
+} @empty {
+  <p>No hay usuarios registrados.</p>
+}
